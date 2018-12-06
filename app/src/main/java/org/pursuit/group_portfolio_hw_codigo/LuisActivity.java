@@ -3,7 +3,7 @@ package org.pursuit.group_portfolio_hw_codigo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class LuisJimenez extends AppCompatActivity {
+public class LuisActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -12,4 +12,8 @@
     <string name="popup_menu_link_one">Project One</string>
     <string name="popup_menu_link_two">Project Two</string>
     <string name="popup_menu_link_three">Project Three</string>
+    <string name="geo_title">Geo</string>
+    <string name="jessica_title">Jessica</string>
+    <string name="luis_title">Luis</string>
+    <string name="michell_title">Michell</string>
 </resources>

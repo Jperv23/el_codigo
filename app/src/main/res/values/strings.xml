@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Group_Portfolio_HW_CODIGO</string>
+    <string name="geo_title">Geo</string>
+    <string name="jessica_title">Jessica</string>
+    <string name="luis_title">Luis</string>
+    <string name="michell_title">Michell</string>
 </resources>

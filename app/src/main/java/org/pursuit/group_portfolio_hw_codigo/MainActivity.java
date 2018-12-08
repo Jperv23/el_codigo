@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        View activity = findViewById(R.id.main);
+        activity.setBackgroundResource(R.drawable.background_opt_1);
+
         navView = findViewById(R.id.nav_view);
 
         navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -29,8 +32,12 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
                     case R.id.option_Geo:
-                        Intent intent = new Intent(MainActivity.this, GeoActivity.class);
-                        startActivity(intent);
+                        Intent intentGeo = new Intent(MainActivity.this, GeoActivity.class);
+                        startActivity(intentGeo);
+                        break;
+                    case R.id.option_Jessica:
+                        Intent intentJess = new Intent(MainActivity.this, JessActivity.class);
+                        startActivity(intentJess);
                         break;
                     default:
                         Toast.makeText(MainActivity.this, "Feature Not Yet Implemented", Toast.LENGTH_SHORT).show();

@@ -13,25 +13,22 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello, World!" />
-
-        <Button
-            android:id="@+id/button"
-            android:text="next"
-            android:layout_width="92dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
+        <!--<TextView-->
+            <!--android:id="@+id/codigo"-->
+            <!--android:layout_width="340dp"-->
+            <!--android:layout_height="145dp"-->
+            <!--android:layout_marginStart="30dp"-->
+            <!--android:layout_marginTop="30dp"-->
+            <!--android:layout_marginEnd="30dp"-->
+            <!--android:background="@color/colorPrimaryDark"-->
+            <!--android:fontFamily="serif-monospace"-->
+            <!--android:text="@string/codigo"-->
+            <!--android:textAlignment="center"-->
+            <!--android:textSize="30sp"-->
+            <!--android:typeface="sans"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent" />-->
 
     </android.support.constraint.ConstraintLayout>
 
@@ -39,8 +36,9 @@
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="left"
+        android:layout_gravity="start"
         android:fitsSystemWindows="true"
+        android:background="@color/colorPrimary"
         app:menu="@menu/nav_menu"
         app:headerLayout="@layout/header_layout"/>
 

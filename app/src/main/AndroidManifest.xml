@@ -19,7 +19,8 @@
         <activity android:name=".LuisJimenez"></activity>
 
 
-        <activity android:name=".JessActivity">
+        <activity android:name=".JessActivity"
+                  android:parentActivityName=".MainActivity">
         </activity>
         <activity android:name=".GeoActivity"></activity>
 

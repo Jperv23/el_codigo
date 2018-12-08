@@ -13,6 +13,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            app:titleTextAppearance="@style/member_name">
+        </android.support.v7.widget.Toolbar>
+
 
         <TextView
             android:id="@+id/jess_name"
@@ -22,6 +29,8 @@
 
         <ImageView
             android:id="@+id/jess_pic"
+            android:contentDescription="@string/todo"
+
             style="@style/member_picture"/>
 
 
@@ -29,7 +38,6 @@
             android:id="@+id/bio_text"
             android:text="@string/bio_text_jess"
             style="@style/bio_text" />
-
 
     </RelativeLayout>
 

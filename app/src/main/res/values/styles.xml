@@ -5,6 +5,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ActTheme">
+        <item name="android:theme">@style/Theme.AppCompat</item>
+    </style>
+
     <style name="member_picture">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">160dp</item>
@@ -15,7 +19,6 @@
         <item name="android:layout_marginTop">66dp</item>
         <item name="android:layout_marginEnd">70dp</item>
         <item name="android:adjustViewBounds">true</item>
-        <item name="android:contentDescription">@string/todo</item>
     </style>
 
     <style name="bio_text">
@@ -26,7 +29,7 @@
         <item name="android:layout_alignParentEnd">true</item>
         <item name="android:layout_marginStart">50dp</item>
         <item name="android:layout_marginTop">20dp</item>
-        <item name="android:layout_marginEnd">50dp</item>
+        <item name="android:layout_marginEnd">47dp</item>
         <item name="android:layout_marginBottom">20dp</item>
         <item name="android:fontFamily">serif-monospace</item>
         <item name="android:lineSpacingExtra">5sp</item>
@@ -48,6 +51,12 @@
         <item name="android:textAlignment">textEnd</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">20sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="nav_menu_text">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">serif-monospace</item>
         <item name="android:typeface">sans</item>
     </style>
 

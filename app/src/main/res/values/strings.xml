@@ -1,15 +1,15 @@
 <resources>
     <string name="app_name">Codigo</string>
     <string name="todo">TODO</string>
-    <string name="bio_text_jess">Bio goes here...
-        Sweet gingerbread topping chocolate bar. Topping gummi bears lemon drops biscuit croissant\n
-        liquorice ice cream chocolate bar. Toffee pastry bonbon powder powder sugar plum caramels. \n
-        Sugar plum chupa chups cupcake cake marzipan cheesecake brownie biscuit cupcake. \n
-        Fruitcake sweet roll chocolate cake soufflé halvah tart bear claw toffee. \n
-        Liquorice toffee jelly powder croissant pastry toffee fruitcake. Jelly beans sugar plum cake toffee cotton candy. \n
-        Jujubes gingerbread cake liquorice lollipop. Powder sesame snaps apple pie candy canes fruitcake danish apple pie croissant toffee. \n
-        Gingerbread powder carrot cake. Wafer sweet roll wafer cotton candy chocolate cake oat cake donut pudding icing. \n
-        Tart bonbon tootsie roll.</string>
+    <string name="bio_text_jess">
+        Bio goes here...Sweet gingerbread topping chocolate bar. Topping gummi bears lemon drops bi..\n
+        liquorice ice cream chocolate bar. Toffee pastry bonbon powder powder sugar plum caramels....\n
+        Sugar plum chupa chups cupcake cake marzipan cheesecake brownie biscuit cupcake..............\n
+        Fruitcake sweet roll chocolate cake soufflé halvah tart bear claw toffee.....................\n
+        Liquorice toffee jelly powder croissant pastry toffee fruitcake. Jelly beans sugar plum cake \n
+        Jujubes gingerbread cake liquorice lollipop. Powder sesame snaps apple pie candy canes fruitc\n
+        Gingerbread powder carrot cake. Wafer sweet roll wafer cotton candy chocolate cake oat cake d\n
+       </string>
     <string name="bio_text_geo">Bio goes here...</string>
     <string name="bio_text_michell">Bio goes here...</string>
     <string name="bio_text_luis">Bio goes here...</string>
@@ -25,5 +25,5 @@
     <string name="luis_title">Luis</string>
     <string name="michell_title">Michell</string>
     <string name="codigo">Codigo</string>
-    <string name="my_header_title">My header title</string>
+    <string name="my_header_title">Meet the team:</string>
 </resources>

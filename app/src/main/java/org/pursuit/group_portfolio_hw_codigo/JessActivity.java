@@ -1,13 +1,18 @@
 package org.pursuit.group_portfolio_hw_codigo;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
+import android.net.Uri;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.PopupMenu;
 
 public class JessActivity extends AppCompatActivity {
 
@@ -16,23 +21,23 @@ public class JessActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jess);
 
-     //Set Activity Background:
+        //Set Activity Background:
         View activity = findViewById(R.id.jActivity);
         activity.setBackgroundResource(R.drawable.background_opt_1);
 
-     //Insert Member picture:
+        //Insert Member picture:
         ImageView imageView = findViewById(R.id.jess_pic);
         Bitmap memPic = BitmapFactory.decodeResource(getResources(), R.drawable.jesspic);
         RoundedBitmapDrawable cirPic = RoundedBitmapDrawableFactory.create(getResources(), memPic);
         cirPic.setCircular(true);
         imageView.setImageDrawable(cirPic);
 
-    //Popup Menu on Tool/Actionbar:
-//        final  toolbar = findViewById(R.drawable.ic_toolbar_menu);
-////        toolbar.setNavigationIcon(R.drawable.ic_toolbar_menu);
-////        toolbar.setTitle(R.string.codigo);
-////        toolbar.setTitleTextColor(Color.parseColor("#ffffff"));
-//        toolbar.setOnClickListener(new View.OnClickListener() {
+        //Popup Menu on Tool/Actionbar:
+//        final android.support.v7.widget.Toolbar toolbar = findViewById(R.id.toolbar);
+//        toolbar.setNavigationIcon(R.drawable.ic_toolbar_menu);
+//        toolbar.setTitle(R.string.codigo);
+//        toolbar.setTitleTextColor(Color.parseColor("#ffffff"));
+//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
 //                final PopupMenu proMenu = new PopupMenu(JessActivity.this, toolbar);
@@ -64,7 +69,4 @@ public class JessActivity extends AppCompatActivity {
 //            }
 //        });
     }
-
-
-
 }

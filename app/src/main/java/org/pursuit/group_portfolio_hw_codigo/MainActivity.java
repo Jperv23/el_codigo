@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         activity.setBackgroundResource(R.drawable.background_opt_1);
 
         navView = findViewById(R.id.nav_view);
+        navView.setItemTextAppearance(R.style.nav_menu_text);
 
         navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override

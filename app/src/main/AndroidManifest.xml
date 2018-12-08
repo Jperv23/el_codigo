@@ -18,8 +18,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
-            android:name=".LuisJimenez"
+            android:name=".LuisActivity"
             android:parentActivityName=".MainActivity"></activity>
         <activity
             android:name=".JessActivity"
@@ -27,6 +28,7 @@
         <activity
             android:name=".GeoActivity"
             android:parentActivityName=".MainActivity"></activity>
+
 
     </application>
 

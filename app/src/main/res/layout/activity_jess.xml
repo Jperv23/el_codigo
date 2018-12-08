@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/jActivity"
@@ -7,61 +8,37 @@
     android:layout_height="match_parent"
     tools:context=".JessActivity">
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/github_links_fab"
-        android:layout_width="39dp"
-        android:layout_height="42dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="512dp"
-        android:layout_marginEnd="8dp"
-        android:clickable="true"
-        android:focusable="true"
-        app:backgroundTint="@android:color/transparent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/git" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/toolbar"-->
+            <!--app:titleTextAppearance="@style/member_name">-->
+        <!--</android.support.v7.widget.Toolbar>-->
 
 
-    <TextView
-        android:id="@+id/member_name"
-        style="@style/member_name"
-        android:text="@string/name_jess"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.978"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.03" />
+        <TextView
+            android:id="@+id/jess_name"
+            android:text="@string/name_jess"
+            style="@style/member_name" />
 
 
-    <ScrollView
-        android:id="@+id/bio_scrollview"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent">
-        <!--style="@style/scrollview"-->
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <ImageView
-                android:id="@+id/jess_pic"
-                style="@style/member_picture"
-                android:layout_marginTop="16dp"
-                android:contentDescription="@string/todo"
-                android:padding="65dp"/>
-
-            <TextView
-                android:id="@+id/bio_text"
-                style="@style/bio_text"
-                android:text="@string/bio_text_jess"
-                android:layout_above="@+id/jess_pic"/>
-        </RelativeLayout>
+        <ImageView
+            android:id="@+id/jess_pic"
+            android:contentDescription="@string/todo"
+            style="@style/member_picture"/>
 
 
+        <TextView
+            android:id="@+id/bio_text"
+            android:text="@string/bio_text_jess"
+            style="@style/bio_text" />
 
-    </ScrollView>
+    </RelativeLayout>
 
 
-</android.support.constraint.ConstraintLayout>
+</ScrollView>
+

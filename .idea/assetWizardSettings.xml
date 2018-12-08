@@ -23,6 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
+
                                                 <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_help_black_24dp.xml" />
                                               </map>
                                             </option>
@@ -33,7 +34,12 @@
                                   </option>
                                   <option name="values">
                                     <map>
+
+                                      <entry key="outputName" value="ic_toolbar_menu" />
+                                      <entry key="theme" value="HOLO_DARK" />
+
                                       <entry key="outputName" value="ic_git_menu" />
+
                                     </map>
                                   </option>
                                 </PersistentState>

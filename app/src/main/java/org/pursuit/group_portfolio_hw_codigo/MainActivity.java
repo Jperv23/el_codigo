@@ -29,10 +29,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        View activity = findViewById(R.id.main);
+        activity.setBackgroundResource(R.drawable.background_opt_1);
+        navView = findViewById(R.id.nav_view);
+        navView.setItemTextAppearance(R.style.nav_menu_text);
+
         drawerLayout = findViewById(R.id.main);
         toolBar = findViewById(R.id.my_toolbar);
-        navView = findViewById(R.id.nav_view);
         setSupportActionBar(toolBar);
+
 
         ActionBar actionBar = getSupportActionBar();
 
@@ -49,11 +55,14 @@ public class MainActivity extends AppCompatActivity {
                 switch (menuItem.getItemId()) {
                     case R.id.option_Geo:
                         Intent intentGeo = new Intent(MainActivity.this, GeoActivity.class);
+
                         drawerLayout.closeDrawer(Gravity.START, true);
+
                         startActivity(intentGeo);
                         break;
                     case R.id.option_Jessica:
                         Intent intentJess = new Intent(MainActivity.this, JessActivity.class);
+
                         //drawerLayout.closeDrawer(Gravity.START, true);
                         startActivity(intentJess);
                         break;

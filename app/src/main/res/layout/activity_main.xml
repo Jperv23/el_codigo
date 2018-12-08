@@ -15,6 +15,7 @@
 
         <include layout="@layout/toolbar" />
 
+
         <TextView
             android:id="@+id/test_text"
             android:layout_width="wrap_content"
@@ -27,15 +28,18 @@
             app:layout_constraintTop_toTopOf="parent" />
 
 
+
     </android.support.constraint.ConstraintLayout>
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_gravity="left"
+        android:layout_gravity="start"
         android:fitsSystemWindows="true"
-        app:headerLayout="@layout/header_layout"
-        app:menu="@menu/nav_menu" />
+        android:background="@color/colorPrimary"
+        app:menu="@menu/nav_menu"
+        app:headerLayout="@layout/header_layout"/>
+
 
 </android.support.v4.widget.DrawerLayout>

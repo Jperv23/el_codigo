@@ -29,7 +29,6 @@
             android:name=".GeoActivity"
             android:parentActivityName=".MainActivity"></activity>
 
-
     </application>
 
 </manifest>

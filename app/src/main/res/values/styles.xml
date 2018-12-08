@@ -17,51 +17,58 @@
 
     <style name="ActivityTheme" parent="@style/AppTheme">
         <item name="android:theme">@style/Theme.AppCompat.NoActionBar</item>
+
     </style>
 
     <style name="member_picture">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginStart">32dp</item>
-        <item name="android:layout_marginEnd">32dp</item>
-        <item name="android:layout_marginLeft">32dp</item>
-        <item name="android:layout_marginRight">32dp</item>
-        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginStart">70dp</item>
+        <item name="android:layout_marginTop">66dp</item>
+        <item name="android:layout_marginEnd">70dp</item>
         <item name="android:adjustViewBounds">true</item>
-        <item name="android:background">@android:color/transparent</item>
-    </style>
-
-    <style name="scrollview">
-        <item name="android:layout_width">365dp</item>
-        <item name="android:layout_height">367dp</item>
-        <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
     </style>
 
     <style name="bio_text">
-        <item name="android:layout_width">300dp</item>
-        <item name="android:layout_height">230dp</item>
-        <item name="android:layout_marginStart">32dp</item>
-        <item name="android:layout_marginTop">32dp</item>
-        <item name="android:layout_marginEnd">32dp</item>
-        <item name="android:layout_marginBottom">32dp</item>
-        <item name="android:textSize">14dp</item>
-        <item name="android:typeface">monospace</item>
-        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_width">280dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_below">@+id/jess_pic</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginStart">50dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginEnd">47dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:lineSpacingExtra">5sp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:typeface">sans</item>
     </style>
 
     <style name="member_name">
-        <item name="android:layout_width">105dp</item>
-        <item name="android:layout_height">35dp</item>
-        <item name="android:textAlignment">center</item>
-        <item name="android:textSize">20dp</item>
-        <item name="android:textColor">#ffffff</item>
-        <item name="android:typeface">monospace</item>
-        <item name="android:layout_marginStart">8dp</item>
-        <item name="android:layout_marginTop">8dp</item>
-        <item name="android:layout_marginEnd">8dp</item>
-        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_width">203dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginStart">162dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginEnd">19dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="nav_menu_text">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:typeface">sans</item>
     </style>
 
 

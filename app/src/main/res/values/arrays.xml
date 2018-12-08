@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="github_array">
+        <item>Bank Project</item>
+        <item>Mad Lib Project</item>
+        <item>Project Codigo</item>
+    </string-array>
+</resources>

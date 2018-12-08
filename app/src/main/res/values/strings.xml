@@ -1,7 +1,15 @@
 <resources>
     <string name="app_name">Codigo</string>
     <string name="todo">TODO</string>
-    <string name="bio_text_jess">Bio goes here...k  cvn;ckjndd;bjksnf;kjns ;fdbjdbljdfnbljkfnljkbsdfnljkgnsfljkng</string>
+    <string name="bio_text_jess">Cupcake ipsum dolor sit amet toffee apple pie. Cookie marzipan toffee candy canes. Jelly beans ice cream marshmallow pie pudding pastry. Biscuit jelly beans cupcake liquorice gummi bears wafer sweet cupcake brownie. Cake icing dragée. Dragée halvah fruitcake chocolate cake cupcake apple pie cotton candy gummies. Dessert dessert chocolate cake brownie caramels chocolate bar gummies muffin. Biscuit liquorice sugar plum topping icing carrot cake. Sweet roll sweet sweet carrot cake cheesecake toffee dragée. Jujubes sugar plum cake fruitcake lollipop toffee cotton candy wafer. Cake chocolate bar topping sweet pudding gummies fruitcake croissant. Gummies chocolate gummies gummies cupcake. Lollipop marzipan cheesecake tootsie roll lollipop sesame snaps sugar plum sweet roll sweet. Oat cake gingerbread halvah gummies cake oat cake jelly beans ice cream gingerbread.
+
+Gummi bears carrot cake croissant tootsie roll marzipan. Tiramisu lollipop oat cake icing dragée jelly. Marshmallow soufflé candy canes caramels bear claw. Liquorice dragée fruitcake. Icing macaroon brownie gingerbread sweet biscuit. Cake candy canes jelly-o chupa chups. Jujubes jujubes chocolate bar bonbon. Donut pastry marshmallow pastry tart lollipop bear claw. Sweet pastry gummi bears sweet marzipan cake lollipop wafer. Biscuit pastry jujubes. Halvah topping oat cake topping donut. Muffin ice cream tart jelly. Biscuit cheesecake chocolate bar chocolate cake fruitcake.
+
+Wafer danish gingerbread pastry pastry oat cake. Wafer brownie gummies jelly-o pastry sweet roll. Pastry bear claw apple pie brownie. Dessert tootsie roll macaroon gingerbread. Jelly beans bear claw fruitcake jelly chocolate muffin halvah. Cookie chocolate halvah powder chupa chups toffee jujubes dessert danish. Candy canes candy canes muffin gummi bears marzipan. Cotton candy candy marshmallow chocolate croissant ice cream sweet. Cupcake sugar plum bear claw jelly icing donut oat cake pastry. Biscuit danish candy toffee halvah cotton candy. Icing halvah jelly muffin icing carrot cake. Danish jelly lemon drops apple pie dragée fruitcake toffee cupcake brownie. Gummies oat cake cake marshmallow pastry candy. Ice cream macaroon sesame snaps cotton candy lollipop.
+
+Cake tootsie roll powder apple pie jelly biscuit jelly danish soufflé. Apple pie chocolate gummies dessert candy icing sweet roll tiramisu. Chupa chups muffin marzipan sesame snaps chocolate cake powder croissant pudding. Danish pudding tart bear claw toffee lemon drops apple pie. Apple pie cake ice cream macaroon jelly-o pastry danish. Icing cake sweet roll. Donut ice cream danish fruitcake cotton candy lemon drops. Chocolate cake donut fruitcake pudding lollipop. Dragée croissant wafer biscuit pudding. Jelly beans chupa chups lollipop. Biscuit bear claw biscuit chocolate tart. Jelly sweet liquorice. Pudding danish muffin bear claw gummi bears jelly-o.
+
+Tiramisu icing sesame snaps candy halvah sugar plum oat cake brownie brownie. Lemon drops chocolate bar chocolate cheesecake pie chocolate bar liquorice. Brownie bear claw pastry topping oat cake lollipop. Bear claw brownie lollipop powder sesame snaps dessert chocolate soufflé. Topping liquorice sweet cotton candy wafer. Candy brownie marzipan. Caramels candy croissant. Muffin gummies biscuit pastry. Sugar plum biscuit gingerbread biscuit bonbon caramels sweet bear claw brownie. Chocolate cake muffin sugar plum ice cream candy canes cheesecake gummi bears biscuit. Bear claw caramels biscuit croissant tootsie roll. Bear claw donut liquorice pudding sesame snaps pudding croissant chocolate cake brownie.</string>
     <string name="bio_text_geo">Bio goes here...</string>
     <string name="bio_text_michell">Bio goes here...</string>
     <string name="bio_text_luis">Bio goes here...</string>
@@ -16,4 +24,6 @@
     <string name="jessica_title">Jessica</string>
     <string name="luis_title">Luis</string>
     <string name="michell_title">Michell</string>
+    <string name="nav_drawer">Nav Drawer</string>
+    <string name="git_dialog_title">"Checkout Some Projects</string>
 </resources>

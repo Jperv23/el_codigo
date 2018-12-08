@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Codigo</string>
     <string name="todo">TODO</string>
+
     <string name="bio_text_jess">
         Bio goes here...Sweet gingerbread topping chocolate bar. Topping gummi bears lemon drops bi..\n
         liquorice ice cream chocolate bar. Toffee pastry bonbon powder powder sugar plum caramels....\n
@@ -12,8 +13,8 @@
        </string>
     <string name="bio_text_geo">Bio goes here...</string>
     <string name="bio_text_michell">Bio goes here...</string>
-    <string name="bio_text_luis">Bio goes here...</string>
-    <string name="name_jess">\n\nJessica</string>
+    <string name="bio_text_luis">Luis is awesome..nuff said</string>
+    <string name="name_jess">Jessica</string>
     <string name="name_michell">Michell</string>
     <string name="name_geo">Gerardo</string>
     <string name="name_luis">Luis</string>
@@ -26,4 +27,6 @@
     <string name="michell_title">Michell</string>
     <string name="codigo">Codigo</string>
     <string name="my_header_title">Meet the team:</string>
+    <string name="nav_drawer">Nav Drawer</string>
+    <string name="git_dialog_title">"Checkout Some Projects</string>
 </resources>

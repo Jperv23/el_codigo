@@ -39,20 +39,27 @@ public class MainActivity extends AppCompatActivity {
         actionBar.setHomeAsUpIndicator(R.drawable.ic_nav_menu);
         actionBar.setDisplayHomeAsUpEnabled(true);
 
+        setupNavDrawer();
+    }
+
+    public void setupNavDrawer() {
         navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
                     case R.id.option_Geo:
                         Intent intentGeo = new Intent(MainActivity.this, GeoActivity.class);
+                        drawerLayout.closeDrawer(Gravity.START, true);
                         startActivity(intentGeo);
                         break;
                     case R.id.option_Jessica:
                         Intent intentJess = new Intent(MainActivity.this, JessActivity.class);
+                        //drawerLayout.closeDrawer(Gravity.START, true);
                         startActivity(intentJess);
                         break;
                     default:
                         Toast.makeText(MainActivity.this, "Feature Not Yet Implemented", Toast.LENGTH_SHORT).show();
+                        drawerLayout.closeDrawer(Gravity.START, true);
                         break;
                 }
                 return true;

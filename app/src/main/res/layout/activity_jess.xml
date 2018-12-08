@@ -13,12 +13,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <android.support.v7.widget.Toolbar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/toolbar"
-            app:titleTextAppearance="@style/member_name">
-        </android.support.v7.widget.Toolbar>
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/toolbar"-->
+            <!--app:titleTextAppearance="@style/member_name">-->
+        <!--</android.support.v7.widget.Toolbar>-->
 
 
         <TextView
@@ -30,7 +30,6 @@
         <ImageView
             android:id="@+id/jess_pic"
             android:contentDescription="@string/todo"
-
             style="@style/member_picture"/>
 
 

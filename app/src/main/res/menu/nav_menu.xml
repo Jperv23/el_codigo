@@ -6,7 +6,8 @@
     <group>
         <item
             android:id="@+id/option_Geo"
-            android:title="@string/geo_title" />
+            android:title="@string/geo_title"
+            android:icon="@drawable/ic_launcher_foreground"/>
         <item
             android:id="@+id/option_Jessica"
             android:title="@string/jessica_title" />

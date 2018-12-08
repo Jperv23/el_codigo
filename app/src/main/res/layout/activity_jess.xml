@@ -1,52 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/jActivity"
     tools:context=".JessActivity">
-
-    <TextView
-        android:id="@+id/member_name"
-        style="@style/member_name"
-        android:text="@string/name_jess"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.978"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.03" />
-
-    <ImageView
-        android:id="@+id/jess_pic"
-        style="@style/member_picture"
-        android:layout_marginTop="16dp"
-        android:contentDescription="@string/todo"
-        android:padding="65dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    
-
-    <ScrollView
-        android:id="@+id/bio_scrollview"
-        style="@style/scrollview"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/jess_pic">
-
-        <TextView
-            android:id="@+id/bio_text"
-            style="@style/bio_text"
-            android:text="@string/bio_text_jess"
-            app:layout_constraintBottom_toTopOf="@+id/github_links_fab"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/jess_pic" />
-
-    </ScrollView>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/github_links_fab"
@@ -63,6 +22,46 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/git" />
+
+
+    <TextView
+        android:id="@+id/member_name"
+        style="@style/member_name"
+        android:text="@string/name_jess"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03" />
+
+
+    <ScrollView
+        android:id="@+id/bio_scrollview"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <!--style="@style/scrollview"-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/jess_pic"
+                style="@style/member_picture"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/todo"
+                android:padding="65dp"/>
+
+            <TextView
+                android:id="@+id/bio_text"
+                style="@style/bio_text"
+                android:text="@string/bio_text_jess"
+                android:layout_above="@+id/jess_pic"/>
+        </RelativeLayout>
+
+
+
+    </ScrollView>
 
 
 </android.support.constraint.ConstraintLayout>

@@ -13,13 +13,6 @@
                       <PersistentState>
                         <option name="children">
                           <map>
-                            <entry key="launcher">
-                              <value>
-                                <PersistentState>
-                                  <option name="values">
-                                    <map>
-                                      <entry key="backgroundLayerName" value="ic_launcher_background" />
-                                      <entry key="outputName" value="ic_circle" />
                             <entry key="actionbar">
                               <value>
                                 <PersistentState>
@@ -30,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material_design_icons/image/ic_photo_camera_black_24dp.xml" />
+                                                <entry key="url" value="jar:file:/Applications/Android%20Studio.app/Contents/plugins/android/lib/android.jar!/images/material_design_icons/action/ic_help_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -40,51 +33,17 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_cam" />
+                                      <entry key="outputName" value="ic_git_menu" />
                                     </map>
                                   </option>
                                 </PersistentState>
                               </value>
                             </entry>
-                            <entry key="launcher">
-                              <value>
-                                <PersistentState>
-                                  <option name="children">
-                                    <map>
-                                      <entry key="foregroundImage">
-                                        <value>
-                                          <PersistentState>
-                                            <option name="values">
-                                              <map>
-                                                <entry key="scalingPercent" value="85" />
-                                              </map>
-                                            </option>
-                                          </PersistentState>
-                                        </value>
-                                      </entry>
-                                    </map>
-                                  </option>
-                                  <option name="values">
-                                    <map>
-                                      <entry key="foregroundImage" value="$USER_HOME$/Downloads/IMG_20181003_091050.jpg" />
-                                      <entry key="outputName" value="ic_geo" />
-                                      <entry key="previewDensity" value="MEDIUM" />
-                                    </map>
-                                  </option>
-                                </PersistentState>
-                              </value>
-                            </entry>
-                            <entry key="launcherLegacy">
-                              <value>
-                                <PersistentState>
-                                  <option name="values">
-                                    <map>
-                                      <entry key="assetType" value="IMAGE" />
-                                    </map>
-                                  </option>
-                                </PersistentState>
-                              </value>
-                            </entry>
+                          </map>
+                        </option>
+                        <option name="values">
+                          <map>
+                            <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
                       </PersistentState>
@@ -93,11 +52,6 @@
                 </map>
               </option>
             </PersistentState>
-          </value>
-        </entry>
-        <entry key="vectorWizard">
-          <value>
-            <PersistentState />
           </value>
         </entry>
       </map>

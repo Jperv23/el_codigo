@@ -3,21 +3,58 @@ package org.pursuit.group_portfolio_hw_codigo;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.NavUtils;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class GeoActivity extends AppCompatActivity {
+    private android.support.v7.widget.Toolbar toolBar;
+    private NavigationView navView;
+    private DrawerLayout drawerLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_geo);
+        applyImage();
+
+        navView = findViewById(R.id.geo_nav_view);
+        navView.setItemTextAppearance(R.style.nav_menu_text);
+
+        drawerLayout = findViewById(R.id.main);
+        toolBar = findViewById(R.id.include);
+        setSupportActionBar(toolBar);
+
+
+        ActionBar actionBar = getSupportActionBar();
+
+        actionBar.setHomeAsUpIndicator(R.drawable.ic_up_action);
+        actionBar.setDisplayHomeAsUpEnabled(true);
+
+        setupNavDrawer();
+    }
+
+    private void applyImage() {
+        ImageView imageView = findViewById(R.id.jess_pic);
+        Bitmap memPic = BitmapFactory.decodeResource(getResources(), R.drawable.jesspic);
+        RoundedBitmapDrawable cirPic = RoundedBitmapDrawableFactory.create(getResources(), memPic);
+        cirPic.setCircular(true);
+        imageView.setImageDrawable(cirPic);
     }
 
     @Override
@@ -67,5 +104,33 @@ public class GeoActivity extends AppCompatActivity {
                     }
                 });
         return gitDialog.create();
+    }
+
+    public void setupNavDrawer() {
+        navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                switch (menuItem.getItemId()) {
+                    case R.id.option_Geo:
+                        Intent intentGeo = new Intent(GeoActivity.this, GeoActivity.class);
+
+                        drawerLayout.closeDrawer(Gravity.START, true);
+
+                        startActivity(intentGeo);
+                        break;
+                    case R.id.option_Jessica:
+                        Intent intentJess = new Intent(GeoActivity.this, JessActivity.class);
+
+                        //drawerLayout.closeDrawer(Gravity.START, true);
+                        startActivity(intentJess);
+                        break;
+                    default:
+                        Toast.makeText(GeoActivity.this, "Feature Not Yet Implemented", Toast.LENGTH_SHORT).show();
+                        drawerLayout.closeDrawer(Gravity.START, true);
+                        break;
+                }
+                return true;
+            }
+        });
     }
 }

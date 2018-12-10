@@ -14,7 +14,7 @@
     <string name="bio_text_geo">Bio goes here...</string>
     <string name="bio_text_michell">Bio goes here...</string>
     <string name="bio_text_luis">Luis is awesome..nuff said</string>
-    <string name="name_jess">Jessica</string>
+    <string name="name_jess">Jessica\n 5.4</string>
     <string name="name_michell">Michell</string>
     <string name="name_geo">Gerardo</string>
     <string name="name_luis">Luis</string>

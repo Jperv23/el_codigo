@@ -45,16 +45,14 @@ public class GeoActivity extends AppCompatActivity {
 
         actionBar.setHomeAsUpIndicator(R.drawable.ic_up_action);
         actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setTitle("");
 
         setupNavDrawer();
     }
 
     private void applyImage() {
-        ImageView imageView = findViewById(R.id.jess_pic);
-        Bitmap memPic = BitmapFactory.decodeResource(getResources(), R.drawable.jesspic);
-        RoundedBitmapDrawable cirPic = RoundedBitmapDrawableFactory.create(getResources(), memPic);
-        cirPic.setCircular(true);
-        imageView.setImageDrawable(cirPic);
+        ImageView imageView = findViewById(R.id.geo_pic);
+        imageView.setImageResource(R.drawable.geopic);
     }
 
     @Override

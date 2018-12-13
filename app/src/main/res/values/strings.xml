@@ -29,4 +29,5 @@
     <string name="my_header_title">Meet the team:</string>
     <string name="nav_drawer">Nav Drawer</string>
     <string name="git_dialog_title">"Checkout Some Projects</string>
+    <string name="incomplete_feature_toast">Feature Not Yet Implemented</string>
 </resources>

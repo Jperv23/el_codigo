@@ -4,5 +4,5 @@
     <color name="colorPrimaryDark">@android:color/black</color>
     <color name="colorAccent">@android:color/black</color>
     <color name="textColor">#ffffff</color>
-    <color name="Navcolor">#666161</color>
+    <!--<color name="Navcolor">#666161</color>-->
 </resources>

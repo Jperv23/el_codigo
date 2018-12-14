@@ -110,16 +110,11 @@ public class GeoActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
                     case R.id.option_Geo:
-                        Intent intentGeo = new Intent(GeoActivity.this, GeoActivity.class);
-
                         drawerLayout.closeDrawer(Gravity.START, true);
-
-                        startActivity(intentGeo);
                         break;
                     case R.id.option_Jessica:
                         Intent intentJess = new Intent(GeoActivity.this, JessActivity.class);
-
-                        //drawerLayout.closeDrawer(Gravity.START, true);
+                        drawerLayout.closeDrawer(Gravity.START, true);
                         startActivity(intentJess);
                         break;
                     default:

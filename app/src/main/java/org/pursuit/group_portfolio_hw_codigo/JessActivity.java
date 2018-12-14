@@ -42,7 +42,7 @@ public class JessActivity extends AppCompatActivity {
         navView = findViewById(R.id.jess_nav_view);
         navView.setItemTextAppearance(R.style.nav_menu_text);
 
-        drawerLayout = findViewById(R.id.main);
+        drawerLayout = findViewById(R.id.JessActivity);
         toolBar = findViewById(R.id.include);
         setSupportActionBar(toolBar);
 
@@ -155,15 +155,12 @@ public class JessActivity extends AppCompatActivity {
                         Intent intentGeo = new Intent(JessActivity.this, GeoActivity.class);
 
                         drawerLayout.closeDrawer(Gravity.START, true);
+                        finish();
 
                         startActivity(intentGeo);
                         break;
                     case R.id.option_Jessica:
-                        Intent intentJess = new Intent(JessActivity.this, JessActivity.class);
-
                         drawerLayout.closeDrawer(Gravity.START, true);
-
-                        startActivity(intentJess);
                         break;
                     default:
                         Toast.makeText(JessActivity.this, "Feature Not Yet Implemented", Toast.LENGTH_SHORT).show();

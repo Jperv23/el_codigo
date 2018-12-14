@@ -24,7 +24,7 @@
             <TextView
                 android:id="@+id/geo_name"
                 style="@style/member_name"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="12dp"
                 android:text="@string/name_geo"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +35,7 @@
                 android:id="@+id/geo_pic"
                 style="@style/member_picture"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginEnd="8dp"
                 android:contentDescription="@string/todo"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +46,7 @@
             <TextView
                 android:id="@+id/bio_text"
                 style="@style/bio_text"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginBottom="8dp"
                 android:text="@string/bio_text_geo"
                 android:textColor="@android:color/white"
@@ -65,10 +65,10 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@color/colorPrimary"
+        android:background="@android:color/white"
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/header_layout"
         app:menu="@menu/nav_menu"
-        app:itemTextColor="@android:color/white"/>
+        app:itemTextColor="@android:color/black"/>
 
 </android.support.v4.widget.DrawerLayout>

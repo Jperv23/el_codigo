@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         ActionBar actionBar = getSupportActionBar();
-
         actionBar.setHomeAsUpIndicator(R.drawable.ic_nav_menu);
+        actionBar.setDisplayShowTitleEnabled(false);
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         setupNavDrawer();

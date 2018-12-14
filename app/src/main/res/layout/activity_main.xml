@@ -19,7 +19,7 @@
 
             <include layout="@layout/toolbar" />
             <!--android:id="@+id/main_toolbar"/>-->
-            
+
 
             <ImageView
                 android:id="@+id/cod_pic"

@@ -3,12 +3,13 @@
     <string name="todo">TODO</string>
 
     <string name="codigo_bio">Hello!
-
-This is the Group Portfolio Project for the Android Pursuit Group, Codigo.
-
-Our Group consists of 4 members: Our Demo lead, Luis Jimenez; Tech lead, Michell Vargas; Design lead, Jessica Perez-Valle; and Project manager, Gerardo Jimenez.
-
-Our name is a callback to our hispanic roots and our commitment to learning to code.</string>
+        This is the Group Portfolio Project for the Android Pursuit Group, Codigo.
+        Our Group consists of 4 members:\n
+        Our Demo lead, Luis Jimenez;
+        Tech lead, Michell Vargas;
+        Design lead, Jessica Perez-Valle;
+        and Project manager, Gerardo Jimenez.
+        Our name is a callback to our hispanic roots and our commitment to learning to code.</string>
     <string name="bio_text_jess">
         Born April 21, 1990 in Cuernavaca, Morelos, Mexico; middle child of three girls.\n
         Jessica migrated to the United Stated at the age of 9 years old. She is currently a DACA

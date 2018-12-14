@@ -7,5 +7,5 @@
         android:id="@+id/github_action"
         app:showAsAction="always"
         android:orderInCategory="0"
-        android:icon="@drawable/ic_git_menu"/>
+        android:icon="@mipmap/ic_github_icon"/>
 </menu>

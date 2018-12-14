@@ -5,4 +5,10 @@
         <item>Mad Lib Project</item>
         <item>Project Codigo</item>
     </string-array>
+
+    <string-array name="jess_array">
+        <item>Game Project</item>
+        <item>Bank Project</item>
+        <item>Story-App Codigo</item>
+    </string-array>
 </resources>

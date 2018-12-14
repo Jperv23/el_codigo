@@ -13,8 +13,8 @@
 
 
     <style name="member_picture">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">160dp</item>
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">190dp</item>
         <item name="android:layout_alignParentStart">true</item>
         <item name="android:layout_alignParentTop">true</item>
         <item name="android:layout_alignParentEnd">true</item>
@@ -38,7 +38,7 @@
         <item name="android:lineSpacingExtra">5sp</item>
         <item name="android:textAlignment">textStart</item>
         <item name="android:textSize">20sp</item>
-        <item name="android:textStyle">italic</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:typeface">sans</item>
     </style>
 
@@ -47,18 +47,19 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentEnd">true</item>
         <item name="android:layout_marginStart">162dp</item>
-        <item name="android:layout_marginTop">0dp</item>
-        <item name="android:layout_marginEnd">19dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
         <item name="android:background">@android:color/transparent</item>
         <item name="android:fontFamily">serif-monospace</item>
         <item name="android:textAlignment">textEnd</item>
         <item name="android:textColor">@android:color/white</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">23sp</item>
         <item name="android:typeface">sans</item>
     </style>
 
     <style name="nav_menu_text">
         <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:fontFamily">serif-monospace</item>
         <item name="android:typeface">sans</item>
     </style>

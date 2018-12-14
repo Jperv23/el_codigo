@@ -2,6 +2,13 @@
     <string name="app_name">Codigo</string>
     <string name="todo">TODO</string>
 
+    <string name="codigo_bio">Hello!
+
+This is the Group Portfolio Project for the Android Pursuit Group, Codigo.
+
+Our Group consists of 4 members: Our Demo lead, Luis Jimenez; Tech lead, Michell Vargas; Design lead, Jessica Perez-Valle; and Project manager, Gerardo Jimenez.
+
+Our name is a callback to our hispanic roots and our commitment to learning to code.</string>
     <string name="bio_text_jess">
         Bio goes here...Sweet gingerbread topping chocolate bar. Topping gummi bears lemon drops bi..\n
         liquorice ice cream chocolate bar. Toffee pastry bonbon powder powder sugar plum caramels....\n
@@ -11,7 +18,14 @@
         Jujubes gingerbread cake liquorice lollipop. Powder sesame snaps apple pie candy canes fruitc\n
         Gingerbread powder carrot cake. Wafer sweet roll wafer cotton candy chocolate cake oat cake d\n
        </string>
-    <string name="bio_text_geo">Bio goes here...</string>
+    <string name="bio_text_geo">Gerardo Jimenez is a Android Development Fellow at Pursuit who carries
+    with him a passion for learning about the latest in technology and what it means for the quality
+    of life of others in both the near and distant future. Those who know him call him Geo and he is a
+    lover of black coffee, Blizzard games, comic books, and the scientific method. Geo is a proud son
+    of Colombian immigrants, he shows his pride by engaging with the younger members of his family in
+    Spanish, teaching them his mothers recipes, and reminding them that it is important to remember
+    their family history. His hope is to be a role model to his nieces and nephews so that they might
+    chase their dreams and find their own success.</string>
     <string name="bio_text_michell">Bio goes here...</string>
     <string name="bio_text_luis">Luis is awesome..nuff said</string>
     <string name="name_jess">Jessica\n 5.4</string>
@@ -29,4 +43,6 @@
     <string name="my_header_title">Meet the team:</string>
     <string name="nav_drawer">Nav Drawer</string>
     <string name="git_dialog_title">"Checkout Some Projects</string>
+    <string name="incomplete_feature_toast">Feature Not Yet Implemented</string>
+    <string name="main_pic_description">Team Codigo Working, like they do.</string>
 </resources>

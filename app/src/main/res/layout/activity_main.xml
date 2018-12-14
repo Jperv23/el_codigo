@@ -5,33 +5,54 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_opt_1"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity"
-    android:background="@drawable/background_opt_1">
+    tools:context=".MainActivity">
 
-
-    <android.support.constraint.ConstraintLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <include layout="@layout/toolbar" />
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include layout="@layout/toolbar" />
+            <!--android:id="@+id/main_toolbar"/>-->
+
+            <ImageView
+                android:id="@+id/codigo_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="64dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:contentDescription="@string/main_pic_description"
+                android:padding="@dimen/image_padding"
+                android:src="@drawable/codigo_pic"
+                app:layout_constraintBottom_toTopOf="@+id/codigo_bio"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
 
-        <TextView
-            android:id="@+id/test_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hola, Mundo!"
-            android:textSize="60sp"
-            android:textColor="@android:color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/codigo_bio"
+                style="@style/bio_text"
+                android:text="@string/codigo_bio"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/codigo_pic"
+                android:textColor="@android:color/white"/>
 
 
 
-    </android.support.constraint.ConstraintLayout>
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
 
     <android.support.design.widget.NavigationView
         android:id="@+id/nav_view"
@@ -43,6 +64,5 @@
         app:menu="@menu/nav_menu"
         app:headerLayout="@layout/header_layout"
         app:itemTextColor="@android:color/black"/>
-
 
 </android.support.v4.widget.DrawerLayout>

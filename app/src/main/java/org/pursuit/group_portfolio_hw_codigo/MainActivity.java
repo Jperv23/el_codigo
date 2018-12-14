@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         ActionBar actionBar = getSupportActionBar();
-
         actionBar.setHomeAsUpIndicator(R.drawable.ic_nav_menu);
+        actionBar.setDisplayShowTitleEnabled(false);
         actionBar.setDisplayHomeAsUpEnabled(true);
 
         setupNavDrawer();
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intentJess);
                         break;
                     default:
-                        Toast.makeText(MainActivity.this, "Feature Not Yet Implemented", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, getString(R.string.incomplete_feature_toast), Toast.LENGTH_SHORT).show();
                         drawerLayout.closeDrawer(Gravity.START, true);
                         break;
                 }

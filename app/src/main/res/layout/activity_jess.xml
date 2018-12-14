@@ -1,44 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/jActivity"
+    android:id="@+id/JessActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
     tools:context=".JessActivity">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <!--<android.support.v7.widget.Toolbar-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:id="@+id/toolbar"-->
-            <!--app:titleTextAppearance="@style/member_name">-->
-        <!--</android.support.v7.widget.Toolbar>-->
+        android:layout_height="match_parent"
+        android:background="@drawable/background_opt_1">
 
 
-        <TextView
-            android:id="@+id/jess_name"
-            android:text="@string/name_jess"
-            style="@style/member_name" />
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/include"
+                layout="@layout/toolbar"/>
+
+            <TextView
+                android:id="@+id/jess_name"
+                style="@style/member_name"
+                android:layout_marginTop="12dp"
+                android:text="@string/name_jess"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/include" />
 
 
-        <ImageView
-            android:id="@+id/jess_pic"
-            android:contentDescription="@string/todo"
-            style="@style/member_picture"/>
+            <ImageView
+                android:id="@+id/jess_pic"
+                style="@style/member_picture"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/todo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jess_name" />
 
 
-        <TextView
-            android:id="@+id/bio_text"
-            android:text="@string/bio_text_jess"
-            style="@style/bio_text" />
+            <TextView
+                android:id="@+id/bio_text"
+                style="@style/bio_text"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/bio_text_jess"
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/jess_pic"
+                app:layout_constraintVertical_bias="1.0" />
 
-    </RelativeLayout>
 
+        </android.support.constraint.ConstraintLayout>
 
-</ScrollView>
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/jess_nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/header_layout"
+        app:menu="@menu/nav_menu"
+        app:itemTextColor="@android:color/black"/>
+
+</android.support.v4.widget.DrawerLayout>
 

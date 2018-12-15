@@ -11,4 +11,9 @@
         <item>Bank Project</item>
         <item>Story-App Codigo</item>
     </string-array>
+    <string-array name="Michell_array">
+        <item>Bank Project</item>
+        <item>Story App Project</item>
+        <item>Other</item>
+    </string-array>
 </resources>

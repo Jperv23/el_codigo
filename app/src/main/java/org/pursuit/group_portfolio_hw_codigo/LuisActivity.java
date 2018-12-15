@@ -119,7 +119,13 @@ public class LuisActivity extends AppCompatActivity {
 
                         startActivity(intentJess);
                         break;
+                    case R.id.option_Luis:
+                        Intent intentLuis = new Intent(LuisActivity.this, LuisActivity.class);
 
+                        drawerLayout.closeDrawer(Gravity.START, true);
+
+                        startActivity(intentLuis);
+                        break;
                     default:
                         Toast.makeText(LuisActivity.this, "Feature Not Yet Implemented", Toast.LENGTH_SHORT).show();
                         drawerLayout.closeDrawer(Gravity.START, true);

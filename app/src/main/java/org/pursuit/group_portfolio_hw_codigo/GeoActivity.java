@@ -93,6 +93,7 @@ public class GeoActivity extends AppCompatActivity {
                                 Intent intent2 = new Intent(Intent.ACTION_VIEW, uri2);
                                 startActivity(intent2);
                                 break;
+
                             case 2:
                                 Uri uri3 = Uri.parse("https://github.com/Moonianne/el_codigo");
                                 Intent intent3 = new Intent(Intent.ACTION_VIEW, uri3);
@@ -110,17 +111,19 @@ public class GeoActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
                 switch (menuItem.getItemId()) {
                     case R.id.option_Geo:
-                        Intent intentGeo = new Intent(GeoActivity.this, GeoActivity.class);
-
                         drawerLayout.closeDrawer(Gravity.START, true);
-
-                        startActivity(intentGeo);
                         break;
                     case R.id.option_Jessica:
                         Intent intentJess = new Intent(GeoActivity.this, JessActivity.class);
-
-                        //drawerLayout.closeDrawer(Gravity.START, true);
+                        drawerLayout.closeDrawer(Gravity.START, true);
                         startActivity(intentJess);
+                        break;
+                    case R.id.option_Luis:
+                        Intent intentLuis = new Intent(GeoActivity.this, LuisActivity.class);
+
+                        drawerLayout.closeDrawer(Gravity.START, true);
+
+                        startActivity(intentLuis);
                         break;
                     default:
                         Toast.makeText(GeoActivity.this, "Feature Not Yet Implemented", Toast.LENGTH_SHORT).show();

@@ -20,8 +20,9 @@
             <include layout="@layout/toolbar" />
             <!--android:id="@+id/main_toolbar"/>-->
 
+
             <ImageView
-                android:id="@+id/codigo_pic"
+                android:id="@+id/cod_pic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -29,9 +30,9 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 android:contentDescription="@string/main_pic_description"
-                android:padding="@dimen/image_padding"
+                android:padding="8dp"
                 android:src="@drawable/codigo_pic"
-                app:layout_constraintBottom_toTopOf="@+id/codigo_bio"
+                app:layout_constraintBottom_toTopOf="@+id/cod_bio"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -39,13 +40,13 @@
 
 
             <TextView
-                android:id="@+id/codigo_bio"
+                android:id="@+id/cod_bio"
                 style="@style/bio_text"
                 android:text="@string/codigo_bio"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/codigo_pic"
+                app:layout_constraintTop_toBottomOf="@id/cod_pic"
                 android:textColor="@android:color/white"/>
 
 

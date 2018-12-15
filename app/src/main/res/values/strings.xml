@@ -3,20 +3,21 @@
     <string name="todo">TODO</string>
 
     <string name="codigo_bio">Hello!
-
-This is the Group Portfolio Project for the Android Pursuit Group, Codigo.
-
-Our Group consists of 4 members: Our Demo lead, Luis Jimenez; Tech lead, Michell Vargas; Design lead, Jessica Perez-Valle; and Project manager, Gerardo Jimenez.
-
-Our name is a callback to our hispanic roots and our commitment to learning to code.</string>
+        This is the Group Portfolio Project for the Android Pursuit Group, Codigo.
+        Our Group consists of 4 members:\n
+        Our Demo lead, Luis Jimenez;
+        Tech lead, Michell Vargas;
+        Design lead, Jessica Perez-Valle;
+        and Project manager, Gerardo Jimenez.
+        Our name is a callback to our hispanic roots and our commitment to learning to code.</string>
     <string name="bio_text_jess">
-        Bio goes here...Sweet gingerbread topping chocolate bar. Topping gummi bears lemon drops bi..\n
-        liquorice ice cream chocolate bar. Toffee pastry bonbon powder powder sugar plum caramels....\n
-        Sugar plum chupa chups cupcake cake marzipan cheesecake brownie biscuit cupcake..............\n
-        Fruitcake sweet roll chocolate cake soufflé halvah tart bear claw toffee.....................\n
-        Liquorice toffee jelly powder croissant pastry toffee fruitcake. Jelly beans sugar plum cake \n
-        Jujubes gingerbread cake liquorice lollipop. Powder sesame snaps apple pie candy canes fruitc\n
-        Gingerbread powder carrot cake. Wafer sweet roll wafer cotton candy chocolate cake oat cake d\n
+        Born April 21, 1990 in Cuernavaca, Morelos, Mexico; middle child of three girls.\n
+        Jessica migrated to the United Stated at the age of 9 years old. She is currently a DACA
+        recipient, and \"DREAMER\" in all aspects.\n Jessica found herself lost for some time; unsure
+        of her future. She joined Pursuit in the fall of 2018 in hopes of making a change in her life.
+        Her current goal is to be the best example to her daughter, Sadie, and show her that it is
+        never to late to accomplish your goals.\n Jessica now finds herself motivated and excited about
+        the next phase in her life. \n Bio to be continued...
        </string>
     <string name="bio_text_geo">Gerardo Jimenez is a Android Development Fellow at Pursuit who carries
     with him a passion for learning about the latest in technology and what it means for the quality
@@ -27,6 +28,9 @@ Our name is a callback to our hispanic roots and our commitment to learning to c
     their family history. His hope is to be a role model to his nieces and nephews so that they might
     chase their dreams and find their own success.</string>
     <string name="bio_text_michell">Bio goes here...</string>
+
+    <string name="name_jess">Jessica</string>
+
     <string name="bio_text_luis">
         Luis is awesome. No really he is. Highly imaginative motivated while also being a natural
         leader with a knack for breaking things....He also enjoys video games, manga, drawing and old
@@ -34,7 +38,7 @@ Our name is a callback to our hispanic roots and our commitment to learning to c
         scroll all the way down. Oh dam! you did. Oh well here’s a dad joke I hope you can enjoy..
         What do you call a Mexican who has lost his car?........................Carlos :)
     </string>
-    <string name="name_jess">Jessica\n 5.4</string>
+
     <string name="name_michell">Michell</string>
     <string name="name_geo">Gerardo</string>
     <string name="name_luis">Luis</string>

@@ -76,6 +76,7 @@
                               </value>
                             </entry>
                             <entry key="launcher">
+
                               <value>
                                 <PersistentState>
                                   <option name="values">
@@ -89,17 +90,22 @@
                               </value>
                             </entry>
                             <entry key="launcherLegacy">
+
                               <value>
                                 <PersistentState>
                                   <option name="children">
                                     <map>
-                                      <entry key="image">
+                                      <entry key="foregroundImage">
                                         <value>
                                           <PersistentState>
                                             <option name="values">
                                               <map>
+
+                                                <entry key="scalingPercent" value="80" />
+
                                                 <entry key="paddingPercent" value="10" />
                                                 <entry key="trimmed" value="true" />
+
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -109,11 +115,37 @@
                                   </option>
                                   <option name="values">
                                     <map>
+                                      <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="020202" />
+                                      <entry key="backgroundLayerName" value="ic_c_letter__round" />
+                                      <entry key="foregroundImage" value="$USER_HOME$/Downloads/CLetter.png" />
+                                      <entry key="foregroundLayerName" value="ic_c_letter" />
+                                      <entry key="legacyIconShape" value="CIRCLE" />
+                                      <entry key="outputName" value="ic_c_letter_icon" />
+                                      <entry key="webIconShape" value="CIRCLE" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                            <entry key="launcherLegacy">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
                                       <entry key="assetType" value="IMAGE" />
+
+                                      <entry key="backgroundColor" value="020202" />
+                                      <entry key="cropped" value="true" />
+                                      <entry key="iconShape" value="CIRCLE" />
+                                      <entry key="imageAsset" value="$USER_HOME$/Downloads/CLetter.png" />
+                                      <entry key="outputName" value="ic_c_letter_icon" />
+
                                       <entry key="backgroundColor" value="fcf5ff" />
                                       <entry key="iconShape" value="CIRCLE" />
                                       <entry key="imageAsset" value="$USER_HOME$/Downloads/Michell Vargas.jpg.JPG" />
                                       <entry key="outputName" value="michellpic" />
+
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -121,11 +153,13 @@
                             </entry>
                           </map>
                         </option>
+
                         <option name="values">
                           <map>
                             <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
+
                       </PersistentState>
                     </value>
                   </entry>

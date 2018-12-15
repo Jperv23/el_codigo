@@ -76,22 +76,22 @@ public class LuisActivity extends AppCompatActivity {
     public AlertDialog dialogish() {
         AlertDialog.Builder gitDialog = new AlertDialog.Builder(LuisActivity.this);
         gitDialog.setTitle(R.string.git_dialog_title)
-                .setItems(R.array.github_array, new DialogInterface.OnClickListener() {
+                .setItems(R.array.luis_array, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         switch (which) {
                             case 0:
-                                Uri uri = Uri.parse("https://github.com/Moonianne/Java_Bank_Pursuit_HW_JIMENEZ_GERARDO");
+                                Uri uri = Uri.parse("https://github.com/LJmnz27/MSDOS-game.git");
                                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                                 startActivity(intent);
                                 break;
                             case 1:
-                                Uri uri2 = Uri.parse("https://github.com/Moonianne/Story_App_HW_JIMENEZ_GERARDO");
+                                Uri uri2 = Uri.parse("https://github.com/LJmnz27/Bank_Teller.git");
                                 Intent intent2 = new Intent(Intent.ACTION_VIEW, uri2);
                                 startActivity(intent2);
                                 break;
                             case 2:
-                                Uri uri3 = Uri.parse("https://github.com/Moonianne/el_codigo");
+                                Uri uri3 = Uri.parse("https://github.com/michvarg/el_codigo.git");
                                 Intent intent3 = new Intent(Intent.ACTION_VIEW, uri3);
                                 startActivity(intent3);
                                 break;

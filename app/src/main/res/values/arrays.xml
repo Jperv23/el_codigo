@@ -11,4 +11,10 @@
         <item>Bank Project</item>
         <item>Story-App Codigo</item>
     </string-array>
+
+    <string-array name="luis_array">
+        <item>Samurai Game</item>
+        <item>Bank Project</item>
+        <item>Story-App Codigo</item>
+    </string-array>
 </resources>

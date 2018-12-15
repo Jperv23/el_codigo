@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MichellActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_opt_1">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                android:id="@+id/include"
+                layout="@layout/toolbar"/>
+
+            <TextView
+                android:id="@+id/Michell_name"
+                style="@style/member_name"
+                android:layout_marginTop="12dp"
+                android:text="@string/name_michell"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/include" />
+
+
+            <ImageView
+                android:id="@+id/michell_pic"
+                style="@style/member_picture"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:contentDescription="@string/todo"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Michell_name" />
+
+
+            <TextView
+                android:id="@+id/bio_text"
+                style="@style/bio_text"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="Michell Gal Vargas is an Android Development Fellow at Pursuit who has since discovered her passion for technology and women’s entrepreneurship. Her passion for technology has led her to Pursuit, a coding program that inspire coding’s creativity and endless opportunities. Proud daughter of Dominican and Israeli parents who have raised her to be a strong, kind hearted independent women. She loves to laugh and make others laugh, people who know her would say she has a goofy personality. Michell's dreams is to one day to be able to inspire young girls to learn how to code and become the new leaders in teach."
+                android:textColor="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/michell_pic" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/michell_nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/header_layout"
+        app:menu="@menu/nav_menu"
+        app:itemTextColor="@android:color/black"/>
+
+</android.support.v4.widget.DrawerLayout>

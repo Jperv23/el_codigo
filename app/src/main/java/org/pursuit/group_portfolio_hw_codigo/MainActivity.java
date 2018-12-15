@@ -63,6 +63,13 @@ public class MainActivity extends AppCompatActivity {
                         //drawerLayout.closeDrawer(Gravity.START, true);
                         startActivity(intentJess);
                         break;
+                    case R.id.option_Luis:
+                        Intent intentLuis = new Intent(MainActivity.this, LuisActivity.class);
+
+                        drawerLayout.closeDrawer(Gravity.START, true);
+
+                        startActivity(intentLuis);
+                        break;
                     default:
                         Toast.makeText(MainActivity.this, getString(R.string.incomplete_feature_toast), Toast.LENGTH_SHORT).show();
                         drawerLayout.closeDrawer(Gravity.START, true);
